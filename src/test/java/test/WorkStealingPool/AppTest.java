@@ -1,4 +1,4 @@
-package test.clyde.ThreadTesting;
+package test.WorkStealingPool;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
