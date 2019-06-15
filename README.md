@@ -1,6 +1,6 @@
 # Work stealing executor service test
 
-Can switch between using fxed thread pool and work stealing in the main application java
+Can switch between using fxed thread pool and work stealing in the main [application java](src/main/java/test/WorkStealingPool/App.java)
 
 Using the fixed thread pool will get stuck once all the available threads have been used. The work stealing executor will continue creating children threads and doesn't seem to suffer the same fate.
 
